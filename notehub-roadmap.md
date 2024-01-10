@@ -38,7 +38,7 @@ Features:
       - [x] revalidate server page
  - [x] user can toggle home, profile, create, server views
  - [] user can invite other users to server
- - [] fix UI for login and signup pages
+ - [x] fix UI for login and signup pages
  - [] fix UI for entire app (layout, theme)
  - [] replace alerts with toasts
  - [] handle prisma errors
