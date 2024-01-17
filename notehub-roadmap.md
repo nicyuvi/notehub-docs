@@ -38,7 +38,7 @@ Features:
       - [x] revalidate server page
  - [x] user can toggle home, profile, create, server views
  - [] user can invite other users to server
- - [] fix UI for login and signup pages
+ - [x] fix UI for login and signup pages
  - [] fix UI for entire app (layout, theme)
  - [] replace alerts with toasts
  - [] handle prisma errors
@@ -69,27 +69,6 @@ nice to have:
     notes to a server with one request
   - [] optimistic updates for server mutations
 
-models:
-User
-  create user based on login
-  each user can have only one profile
-  each user can have multiple posts
-  id default increment
-  email // unique email from login
-  name // username the user chooses
-  createdAt // DateTime()
-
-Profile
-  image url
-  bio 
-
-Post
-  published
-
-UI
-sidebar:
-  profile
-  create post
-  view posts
-  view drafts
+optimize: 
+  - [] replace Clerk with Next Auth. Clerk makes every page dynamic
 
