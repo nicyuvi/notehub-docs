@@ -37,11 +37,9 @@ Features:
       - [x] close modal
       - [x] revalidate server page
  - [x] user can toggle home, profile, create, server views
- - [] user can invite other users to server
  - [x] fix UI for login and signup pages
- - [] fix UI for entire app (layout, theme)
- - [] replace alerts with toasts
- - [] handle prisma errors
+ - [x] fix UI for entire app (layout, theme)
+ - [] user can invite other users to server
  - [] e2e tests
  - [] unit/integration tests
 
@@ -68,7 +66,9 @@ nice to have:
   - [] users can multiselect in 'add notes to server' feature and add multiple
     notes to a server with one request
   - [] optimistic updates for server mutations
+  - [] replace alerts with toasts
 
 optimize: 
   - [] replace Clerk with Next Auth. Clerk makes every page dynamic
+  - [] handle prisma errors
 
