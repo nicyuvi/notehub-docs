@@ -67,6 +67,8 @@ nice to have:
     notes to a server with one request
   - [] optimistic updates for server mutations
   - [] replace alerts with toasts
+  - [] full page loading screen on initial render. sidebar loads after main
+    content 
 
 optimize: 
   - [] replace Clerk with Next Auth. Clerk makes every page dynamic
